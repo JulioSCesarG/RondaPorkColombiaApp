@@ -3,12 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sweetalert/with-react": "^0.1.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "firebase": "^7.24.0",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "react-scripts": "3.4.4"
+    "react-firebase": "^2.2.8",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-js-pagination": "^3.0.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.4",
+    "react-select": "^3.1.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert-react": "^0.4.11",
+    "xlsx": "^0.16.8",
+    "xlsx-style": "^0.8.13"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }

@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+    width: 360px;
+    height: 220px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .app-imagen{
+    width: 340px;
+  }
+
+  h4{
+    width: 98%;
+    background-color: rgb(255, 253, 253);
+    color: #8a8888;
+    font-weight: bold;
+    margin-top: 10px;
+  }  
+  
+  .App-header {
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 100%;
+    position: relative;
+    background-color: #c9c9c9;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }

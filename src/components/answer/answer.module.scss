@@ -1,0 +1,82 @@
+.container{    
+    width: 700px;
+    height: 650px;
+    background-color: #fff;
+    border: 5px solid  #c9c9c9;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.app_imagen{
+    width: 680px;
+    height: 150px;
+}
+  
+h4{
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    color: #6b6b6b;
+    font-weight: bold;
+    font-size: 13pt;
+    margin-top: 10px;
+}  
+  
+.App_header {
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    height: auto;
+    text-align: center;
+    align-items: center;  
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.link1{
+    width: 100%;
+    height: 25px;    
+    color: #8a8888;
+    background-color: rgb(255, 255, 255);
+    border-bottom:2px solid rgb(192, 64, 96);
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 6px;  
+    align-Items: 'center';
+    justify-Content: 'center';
+    text-align: center;    
+}
+
+.link{
+    color: #6b6b6b;
+}
+.btnExportar{
+    background-color:  rgb(120, 162, 253);
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.tabla{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.tableHeader{
+    background-color:  rgb(120, 162, 253);
+    font-size: 12pt;
+    text-align: center;
+}
+
+.table{
+    align-items: center;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+ td, th{
+    border: 1px solid rgb(83, 106, 136); 
+ }

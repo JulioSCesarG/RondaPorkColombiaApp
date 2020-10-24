@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
+import { RegistroContextProvider } from './components/context/registros';
+import {watchrondaPork} from './services/firebase/watches';
+import Presentacion from './components/presentation/presentation';
+import Inicio from './components/welcome/welcome';
+import Question from './components/question/question';
+import Answer from './components/answer/answer';
+import Privado from './components/login/login';
 
-function App() {
+watchrondaPork((rondaPork) =>{
+  console.log(rondaPork);
+});
+
+
+function App (){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter >
+        <RegistroContextProvider >
+            <Switch >   
+                <Route path= "/answer" component={Answer} /> 
+                <Route path= "/login" component={Privado} />              
+                <Route path= "/presentacion" component={Presentacion} /> 
+                <Route path= "/components" component={Inicio} />
+                <Route path= "/question" component={Question} />
+                <Redirect from="/" to = "/components" />
+            </Switch>
+        </RegistroContextProvider>            
+    </BrowserRouter>      
   );
 }
 

@@ -1,0 +1,186 @@
+.container{    
+    width: 360px;
+    height: 900px;
+    background-color: #fff;
+    border: 5px solid  #c9c9c9;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.app_imagen{
+    width: 340px;
+    height: 90px;
+  }
+  
+  h4{
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    color: #6b6b6b;
+    font-weight: bold;
+    font-size: 13pt;
+    margin-top: 10px;
+  }  
+  
+  .App_header {
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    height: auto;
+    text-align: center;
+    align-items: center;  
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .bodyText{
+      width: 95%;
+      text-align: justify;
+      font-size: 11pt;
+      margin-left: 5px;
+  }
+   
+  .link{
+    color: #6b6b6b;
+  }
+
+  .link1, .link2{
+    position: absolute;
+    width: 350px;
+    height: 25px;    
+    color: #8a8888;
+    background-color: rgb(255, 255, 255);
+    border-bottom:2px solid rgb(192, 64, 96);
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 6px;  
+    align-Items: 'center';
+    justify-Content: 'center';
+    text-align: center;    
+}
+
+.link1{
+    top:830px
+}
+.link2{
+    top:860px
+}
+
+.lbl{   
+    border-style: none;    
+    width: 250px;
+    font-size: 11pt;
+    font-weight: bold;    
+}
+
+.contenedor12{
+    position: absolute;
+    left: 20px;
+    top: 1200px;
+}
+
+.contenedor1, .contenedor2,
+.contenedor3, .contenedor4,
+.contenedor5, .contenedor6,
+.contenedor7{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(114, 113, 113);
+    border-radius: 5px;    
+    width: 330px;
+    height: 85px;
+    margin-left: 5px;
+}
+
+.contenedor1{
+    top: 190px;
+}
+
+.selector{
+    width: 95%;
+    height: 40px;
+    background-color: rgb(231, 226, 226);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.title{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.contenedor2{    
+    top: 280px;   
+    
+}
+
+.contenedor3{
+    top: 370px;
+}
+
+.contenedor4{
+    top: 460px;
+}
+
+.contenedor5{
+    top: 550px;
+}
+
+.contenedor6{
+    top: 640px;
+    height: 95px;
+}
+.contenedor7{
+    top: 740px;
+}
+
+.txtArea{
+    width: 95%;
+    margin-left: 10px;
+}
+
+.input{
+    position: relative;    
+    padding: .75rem;
+    color: #999898;
+    font-size: 12pt;
+    border-style: none;
+    width: 90%;       
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.input1{
+    position: relative;
+    background-color: rgb(255, 255, 255);    
+    font-weight: bold;
+    color: #0c0b0b;
+    font-size: 12pt;
+    border-style: none;
+    box-sizing: border-box;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.option{
+    position: relative;
+}
+
+.optionList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 44px;
+    left: 0;
+    width: 100%;
+}
+
+.optionListItem{
+    padding: .5rem;
+    border: 1px solid #666;
+    background-color: white;
+}
+
+

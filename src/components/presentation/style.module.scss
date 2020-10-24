@@ -1,0 +1,65 @@
+.container{    
+    width: 360px;
+    height: 640px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    border: 5px solid  #c9c9c9;
+    align-items: center;
+}
+
+.link1{
+    width: 100%;
+    height: 25px;    
+    color: #8a8888;
+    background-color: rgb(255, 255, 255);
+    border-bottom:2px solid rgb(192, 64, 96);
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 6px;  
+    align-Items: 'center';
+    justify-Content: 'center';
+    text-align: center;    
+}
+
+.texto{    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 430px; 
+    border-radius: 5px;
+    font-size: 11pt;    
+    overflow: auto;
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.2;
+    border: 5px solid  #c9c9c9;
+}
+
+.app_imagen{
+    width: 340px;
+    height: 90px;
+}
+  
+h4{
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    color: #6b6b6b;
+    font-weight: bold;
+    font-size: 13pt;
+    margin-top: 10px;
+}  
+  
+.App_header {
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    height: auto;
+    text-align: center;
+    align-items: center;  
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+   
+.link{
+    color: #6b6b6b;
+}
